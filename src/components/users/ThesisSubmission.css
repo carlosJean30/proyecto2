@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../../../src/assets/img/fondo2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Contenedor de entrega de tesis */
+.thesis-submission-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 5px 5px 15px #d1d1d1, 
+                -5px -5px 15px #ffffff;
+    text-align: center;
+}
+
+/* Título de entrega de tesis */
+.thesis-submission-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Formulario de entrega de tesis */
+.thesis-submission-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Campos del formulario */
+.thesis-submission-form input,
+.thesis-submission-form select,
+.thesis-submission-form textarea {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+.thesis-submission-form input:focus,
+.thesis-submission-form select:focus,
+.thesis-submission-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botón de enviar */
+.thesis-submission-form button {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.thesis-submission-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Alertas */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}

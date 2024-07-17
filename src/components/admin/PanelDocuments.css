@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../../../src/assets/img/fondo2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #5c082f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #991150;
+    border-radius: 5px;
+}
+
+/* Contenedor de documentos */
+.documents-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 5px 5px 15px #d1d1d1, 
+                -5px -5px 15px #ffffff;
+    text-align: center;
+}
+
+/* Título de documentos */
+.documents-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Campo de filtro */
+.documents-container input {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Tarjeta de documento */
+.document-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.document-card:hover {
+    background-color: #f0f2f5;
+}
+
+/* Título de la tarjeta */
+.document-card h4 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Texto de la tarjeta */
+.document-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Botones de la tarjeta */
+.document-card button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.document-card button:hover {
+    background-color: #991150;
+}

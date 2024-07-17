@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../../../src/assets/img/fondo2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Contenedor de evaluaciones */
+.evaluation-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 5px 5px 15px #d1d1d1, 
+                -5px -5px 15px #ffffff;
+    text-align: center;
+}
+
+/* Título de evaluaciones */
+.evaluation-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Tarjeta de evaluación */
+.evaluation-card {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.evaluation-card:hover {
+    background-color: #f0f2f5;
+}
+
+/* Título de la tarjeta */
+.evaluation-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Texto de la tarjeta */
+.evaluation-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
